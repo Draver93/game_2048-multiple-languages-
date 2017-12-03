@@ -1,0 +1,119 @@
+plOpenGL CHANGELOG
+=================================================
+
+0.5.0
+=====
+    * Add: glColor3ub, glColor3ui, glColor3us
+    * Add: glColor3ubv, glColor3uiv, glColor3usv
+    * Add: glColor4b, glColor4d, glColor4i, glColor4s
+    * Add: glColor4ui, glColor4us
+    * Add: glColor4bv, glColor4iv, glColor4sv
+    * Add: glColor4ubv, glColor4uiv, glColor4usv
+    * Add: glLightf, glLighti
+    * Add: glLightiv, glMaterialiv
+    * Add: glNormal3d, glNormal3i, glNormal3s
+    * Add: glNormal3dv, glNormal3fv, glNormal3iv, glNormal3sv
+    * Add: glPixelStoref
+    * Add: Source Documentation to plGL.pl, plGLU.pl and plGLUT.pl
+    * Update: plGL.pl, plGLU.pl and plGLUT.pl to become a module
+
+0.4.2
+=====
+    * Add: glEvalCoord1d, glEvalCoord1f
+    * Add: glEvalCoord2d, glEvalCoord2f
+    * Add: glEvalCoord1dv, glEvalCoord1fv
+    * Add: glEvalCoord2dv, glEvalCoord2fv
+    * Add: Particles Example
+
+0.4.1
+=====
+    * Add: glIndexd, glIndexf
+    * Add: glLogicOp
+    * Add: glRasterPos2d, glRasterPos2f, glRasterPos2s
+    * Add: glRasterPos2dv, glRasterPos2fv, glRasterPos2iv, glRasterPos2sv
+    * Add: glRasterPos3d, glRasterPos3f, glRasterPos3i, glRasterPos3s
+    * Add: glRasterPos3dv, glRasterPos3fv, glRasterPos3iv, glRasterPos3sv
+    * Add: glRasterPos4d, glRasterPos4f, glRasterPos4i, glRasterPos4s
+    * Add: glRasterPos4dv, glRasterPos4fv, glRasterPos4iv, glRasterPos4sv
+    * Add: glTexCoord1d, glTexCoord1f, glTexCoord1i, glTexCoord1s
+    * Add: glTexCoord2i, glTexCoord2s
+    * Add: glTexCoord3d, glTexCoord3f
+    * Add: glTexCoord4d, glTexCoord4f, glTexCoord4i, glTexCoord4s
+    * Add: glTexCoord1dv, glTexCoord1fv, glTexCoord1iv, glTexCoord1sv
+    * Add: glTexCoord2dv, glTexCoord2fv, glTexCoord2iv, glTexCoord2sv
+    * Add: glTexCoord3dv, glTexCoord3fv, glTexCoord3iv, glTexCoord3sv
+    * Add: glTexCoord4dv, glTexCoord4fv, glTexCoord4iv, glTexCoord4sv
+
+
+0.4.0
+=====
+    * Add: glColor3b, glColor3i, glColor3s
+    * Add: glColor3bv, glColor3dv, glColor3fv, glColor3iv, glColor3sv
+    * Add: glColor4dv, glColor4fv
+    * Add: glCopyColorTable
+    * Add: glVertexPointer
+    * Add: glVertex2d, glVertex2s
+    * Add: glVertex4d, glVertex4f, glVertex4i, glVertex4s
+    * Add: glVertex2dv, glVertex2fv, glVertex2iv, glVertex2sv
+    * Add: glVertex3dv, glVertex3fv, glVertex3iv, glVertex3sv
+    * Add: glVertex4dv, glVertex4fv, glVertex4iv, glVertex4sv
+
+
+0.3.2
+=====
+    * Add: glColor4ub, glDrawElements
+    * Add: glDisableClientState, glEnableClientState
+    * Add: glEvalMesh1, glEvalMesh2
+    * Add: glEvalPoint1, glEvalPoint2
+    * Add: glScissor, glTexCoord2d, glTranslated
+    * Add: glutFullScreen, glutGet, glutReshapeWindow
+    * Add: NeHe Lesson 9 - Moving Bitmaps in 3D Space
+    * Update: GLUT Definitions
+    * Update: Minor improvements to NeHe Lesson 7 and 8
+
+0.3.1
+=====
+    * Add: OS Preprocessor Directive for glMinmax and glResetMinmax
+    * Update: variable names for glDepthRange
+
+0.3.0
+=====
+    * Add: glCopyTexSubImage1D, glCopyTexSubImage2D, glGetLightfv, glGetLightiv
+    * Add: glGetMaterialfv, glGetMaterialiv, glMinmax, glResetMinmax
+
+0.2.3
+=====
+    * Add: glColorMask, glDepthMask, glDepthRange, glDrawArrays, glDrawPixels
+    * Add: glIndexMask, glRenderMode
+    * Update: OpenGL Definitions are now more complete
+
+0.2.2
+=====
+    * Add: OS Preprocessor Directive for glTexImage3D and glActiveTextureARB
+    * Add: glext.h header for windows
+    * Add: NeHe OpenGL Lesson 6 -- Texture Mapping
+    * Add: NeHe OpenGL Lesson 7 -- Texture Filters, Lighting & Keyboard Control
+    * Add: NeHe OpenGL Lesson 8 -- Blending
+    * Add: glGenLists, glRotated, glScaled
+    * Update: glActiveTextureARB to use windows extension loading
+    * Update: glTexImage3D to use windows extension loading
+    * Update: Replaced c++ style comments with c style in plOpenGL.c
+    * Update: Minor tidy of code commenting
+
+0.2.1
+=====
+    * Add: glColorMaterial, glFrontFace, glPolygonOffset, glTexImage1D
+    * Add: glTexImage3D, glTexSubImage1D, glTexSubImage2D
+    * Update: glTexImage2D
+
+0.2.0
+=====
+    * Add: Examples of NeHe's Lessons 1-5.
+    * Add: glClearAccum, glDrawBuffer, glLoadName, glNormal3f, glPolygonMode
+    * Add: glReadBuffer
+    * Add: gluBuild2DMipmaps
+    * Add: loadGLTextures
+
+0.1.1
+=====
+    * Initial Release.
